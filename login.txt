@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+    <title>login design</title>
+    <link rel="stylesheet" href="login.css" type="text/css"/>
+
+</head>
+    <body>
+    <div id="login-page">
+        <form>
+                <h2>Log In</h2>
+                <label for="username">UserName:</label><br>
+                <input type="text" name="email" placeholder="Username or Email"/><br>
+                <label for="password">Password:</label><br>
+                <input type="password" name="password" placeholder="Password"/><br>
+                <button class="btn">Login</button>
+                <a href="forget.html" >Forgot Password?</a>
+        </form>
+        <form align="center">
+            <p> Not Registered Yet? <a href="signup.html">Create Account</a></p>
+        </form>
+        </div>
+    </body>
+</html>

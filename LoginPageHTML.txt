@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>login design</title>
+    <link rel="stylesheet" href="login.css" type="text/css"/>
+
+</head>
+    <body>
+    <div id="login-page">
+        <form>
+                <h2>Log In</h2>
+                <label for="username">UserName:</label><br>
+                <input type="text" name="email" placeholder="Username or Email"/><br>
+                <label for="password">Password:</label><br>
+                <input type="password" name="password" placeholder="Password"/><br>
+                <button class="btn">Login</button>
+                <a href="" >Forgot Password?</a>
+        </form>
+        <form align="center">
+            <p> Not Registered Yet? <a href="">Create Account</a></p>
+        </form>
+        </div>
+    </body>
+</html>
